@@ -1,0 +1,11 @@
+INSERT INTO students(student_id,full_name,email) VALUES (1,'Aline Uwase','aline@example.org');
+INSERT INTO students(student_id,full_name,email) VALUES (2,'Eric Ndayishimiye','eric@example.org');
+INSERT INTO students(student_id,full_name,email) VALUES (3,'Divine Mukamana','divine@example.org');
+INSERT INTO students(student_id,full_name,email) VALUES (4,'Patrick Habimana','patrick@example.org');
+INSERT INTO courses(course_id,course_code,title,credits,capacity) VALUES (10,'INSY8311','Database Development with PL/SQL',3,3);
+INSERT INTO courses(course_id,course_code,title,credits,capacity) VALUES (20,'CS120','Programming Fundamentals',4,4);
+INSERT INTO courses(course_id,course_code,title,credits,capacity) VALUES (30,'STAT101','Introduction to Statistics',3,2);
+INSERT INTO enrollments(enrollment_id,student_id,course_id,grade) VALUES (100,1,10,88);
+INSERT INTO enrollments(enrollment_id,student_id,course_id,grade) VALUES (101,2,10,74);
+INSERT INTO enrollments(enrollment_id,student_id,course_id,grade) VALUES (102,1,20,91);
+COMMIT;
