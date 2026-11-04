@@ -1,7 +1,10 @@
 plsql-assignment4-20251SEN209-20251SEN188
 Assignment IV - Student registration and grading system
 
-Sangwa Dejoie 20251SEN209 Ishimwe Emery 20251SEN188 Class C We have three tables. Students stores names and emails. Courses stores information about the courses. Enrollments shows which student takes which course and the grade they got.
+Sangwa Dejoie 20251SEN209 & Ishimwe Emery 20251SEN188 
+group C
+
+We have three tables. Students stores names and emails. Courses stores information about the courses. Enrollments shows which student takes which course and the grade they got.
 
 Our system can add students, enroll them in a course, give them grades, show students in a course, and calculate average marks. It can also give bonus marks to several students at once.
 
